@@ -1,0 +1,312 @@
+*{
+    text-decoration: none;
+}
+
+.body{
+    color: #FFF;
+    font-family: 'Amatic SC', cursive;
+    line-height: 1.5;
+
+}
+
+.title, .header-hours, .menu, .section-title, .button, .footer{
+    text-align: center;
+}
+
+.navigation, .header-hours, .about-box, .opening-hours, .contact-text, .form{
+    font-size: 30px;
+}
+
+/*header*/
+
+.header{
+    background-image: url("../images/pizza.jpg");
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation{
+    display: flex;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    height: 60px;
+    opacity: 0.6;
+    align-items: center;
+    position: fixed;
+    padding: 5px;
+}
+
+.navigation a{
+    color: #FFF;
+}
+
+
+.navigation:hover{
+    background-color: #000;
+    opacity: 1.0;
+}
+
+.nav-item{
+    padding: 15px 14px;
+}
+
+.nav-item:hover{
+    background-color: #868686;
+    color: #000;
+}
+
+.header-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.title{
+    font-size: 98px;
+    max-width: 300px;
+    line-height: 1.75;
+}
+
+.link-menu{
+    font-size: 40px;
+    padding: 15px;
+    background-color: #000;
+    color: #FFF;
+    margin-top: 40px;
+}
+
+
+.link-menu:hover{
+    background-color: #868686;
+    color: #000;
+}
+
+.header-hours{
+    background-color: #000;
+    width: 15%;
+    padding: 5px 0;
+    margin-left: 20px;
+    position: absolute;
+    top: 590px;
+}
+
+/*main*/
+
+.about-box, .opening-hours, .contact-info, .form{
+    width: 73%;
+    margin: 0 auto;
+}
+
+
+/*menu*/
+
+.menu{
+    background-color: #000;
+    padding: 70px 0;
+    font-size: 40px;
+}
+
+.section-title{
+    font-size: 80px;
+    margin: 40px 0;
+}
+
+.menu-box{
+    border: solid 1px #ccc;
+    width: 73%;
+    margin: 90px auto;
+}
+
+.menu-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-section{
+    width: 33%; 
+    padding: 30px 0;   
+}
+
+.menu-section:hover{
+    background-color: #ff0000;
+    cursor: pointer;
+}
+
+.pizza-menu, .pasta-menu, .starters-menu{
+    background-color: #FFF;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+}
+
+.pasta-menu, .starters-menu{
+    display: none;
+}
+
+.option-info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.menu-option{
+    padding: 20px 5px;
+    font-weight: bold;
+}
+
+.price{
+    color: #FFF;
+    background-color: #616161;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.additional-info, .menu-hot{
+    border-radius: 5px;
+    font-weight: normal;
+    padding: 10px;
+    margin: 10px;
+}
+
+.menu-hot{
+    background-color: #fa2424;
+    color: #FFF;
+}
+
+.additional-info{
+    background-color: #9e9e9e;
+}
+
+.item-description{
+    margin-bottom: 10px;
+}
+
+hr{
+    border: 0;
+    border-top: solid 1px #eee;
+    width: 95%;
+    margin: 20px 0;
+    display: flex;
+    align-self: center;
+}
+
+/*about*/
+
+.about{
+    background-color: #7c241e9c;
+    padding: 90px 0;
+}
+
+.about-box, .opening-hours{
+    text-align:start;
+}
+
+.about-text{
+    padding-bottom: 20px;
+}
+
+.about-chef{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chef-pic{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.restaurant-pic{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.hours-title{
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+.hours-box{
+    display: flex;
+}
+
+.hours-col{
+    padding-right: 30%;
+}
+.hours-text{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.map-pic{
+    width: 100%;
+    margin: -5px 0;
+}
+
+
+/*contact*/
+
+.contact{
+    background-color: #607d8bb2;
+    padding: 35px 0;
+    padding-bottom: 80px;
+}
+
+.reservation-text{
+    font-size: 50px;
+    padding: 10px 0;
+}
+
+.fyi{
+    background-color: #000;
+    color: #FFF;
+    padding: 5px;
+}
+
+.form{
+    display: flex;
+    flex-direction:column;
+}
+
+.form-info, .button{
+    border: 0;
+    margin: 18px 0;
+    padding: 20px 5px;
+}
+
+.form-info{
+    color:#6e6e6eb7;
+}
+
+.button{
+    background-color: #FFF;
+    color: #272727;
+}
+
+.button:hover{
+    background-color: #ececec;
+    cursor: pointer;
+}
+
+/*footer*/
+
+.footer{
+    font-size: 50px;
+    background-color: #000;
+    padding: 50px 0;
+}
+
+.footer a{
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.footer a:hover{
+    color: #04AA6D;
+}
